@@ -1,1 +1,6 @@
+import yfinance as yahfin
+import numpy as nump
+import pandas as pd
+import os
 
+data = yahfin.download("LUNA1-GBP", start="2021-03-01", end="2022-03-01")
